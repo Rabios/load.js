@@ -1,5 +1,5 @@
 # load.js
-tiny JavaScript to load external JavaScript files or libraries
+Tiny JavaScript library to load external JavaScript files (scripts) or libraries
 
 ## Use case
 ```javascript
