@@ -13,3 +13,5 @@ loadjs.load([ "lib.js" ], function() {
 // View source code of JavaScript libraries loaded by load.js
 loadjs.link();
 ```
+
+> NOTES: This project is old so it won't receive updates
