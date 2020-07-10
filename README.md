@@ -3,6 +3,7 @@ Tiny JavaScript library to load external JavaScript files (scripts) or libraries
 
 ## Use case
 ```javascript
+loadjs.version             // Returns current version of load.js
 loadjs.load([ "lib.js" ]); // We simply loaded a file named "lib.js"
 
 // Another example but with running function
