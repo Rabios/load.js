@@ -15,4 +15,4 @@ loadjs.load([ "lib.js" ], function() {
 loadjs.link();
 ```
 
-> NOTES: This project is old so it won't receive updates
+> NOTES: This project is old so it might not receive updates.
