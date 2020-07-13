@@ -17,7 +17,7 @@ loadjs.require([ "lib.js" ], null, true);
 
 // Else if default Node.js module,Set third parameter to false
 loadjs.require([ "lib.js" ], null, false);
-// Use first required Node module
+// Use first required Node.js module
 console.log(jsmodules[0].add(10, 3));
 
 // View source code of JavaScript libraries loaded by load.js
