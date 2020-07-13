@@ -31,7 +31,10 @@ var loadjs = {
         if (t) for (var i = 0; i < l.length; i++) {
             require(l[i])();
         } else if (!t) {
-            for (var i = 0; i < l.length; i++) jsmodules[jsmodules.length + 1 + i] = require(l[i]);   
+            for (var i = 0; i < l.length; i++) {
+                console.info("Loading module: " + l[i]);
+                jsmodules[jsmodules.length + 1 + i] = require(l[i]);
+            }
         } else {
             console.error("Type of require Node.js modules not defined");
         }
