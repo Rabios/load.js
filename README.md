@@ -1,7 +1,9 @@
 # load.js
-Tiny JavaScript library to load/require external JavaScript files (scripts) or libraries or even modules
 
-## Use case
+Tiny JavaScript library to load external JavaScript files (scripts) or libraries or even modules!
+
+## Example
+
 ```javascript
 loadjs.version             // Returns current version of load.js
 loadjs.load([ "lib.js" ]); // We simply loaded a file named "lib.js"
@@ -24,4 +26,4 @@ console.log(jsmodules[0].add(10, 3));
 loadjs.link();
 ```
 
-> NOTES: This project is old so it won't receive updates
+> NOTE: This project is old so it won't receive updates!
